@@ -1,0 +1,128 @@
+@import url("http://fonts.cdnfonts.com/css/gotham");
+.main {
+  width: 100%;
+  height: calc(100vh);
+  background-color: #f9eac9;
+  background-image: url("/images/hand.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+  font-family: "Gotham", sans-serif;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image {
+  width: 50%;
+}
+
+.desc {
+  text-align: center;
+  width: 45%;
+  padding: 50px;
+  z-index: 20;
+}
+
+.textdesc {
+  font-weight: 400;
+  font-size: 21px;
+  font-family: "Gotham", sans-serif;
+}
+
+.textdesc span {
+  font-weight: 700;
+}
+
+.btn {
+  max-width: 200px;
+  width: 10rem;
+}
+
+.bg1 {
+  position: fixed;
+  width: 12%;
+  top: 800px;
+  z-index: 4;
+  right: 43rem;
+}
+
+.bg2 {
+  position: absolute;
+  width: 200px;
+  top: 0;
+  z-index: 4;
+  left: 0;
+}
+
+.footer {
+  margin: 5px 0;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  z-index: 30;
+}
+
+.footer h4 {
+  margin: 0;
+  font-family: "Gotham", sans-serif;
+}
+
+@media only screen and (max-width: 1024px) {
+  .main {
+    background-size: 70vw;
+    background-image: url("/images/Mobile-LandingPage.png");
+  }
+
+  .bg1 {
+    right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .main {
+    background-position: top;
+    background-size: 30rem;
+  }
+
+  .pickMobile {
+    display: none;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .desc {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    height: 43%;
+  }
+
+  .btn {
+    width: 110px;
+  }
+
+  .textdesc {
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  .textdesc span {
+    font-weight: 700;
+  }
+
+  .bg1 {
+    position: absolute;
+    width: 15%;
+    top: 400px;
+    z-index: 4;
+    right: 1rem;
+  }
+}
