@@ -48,6 +48,7 @@ export default function Home() {
           <div className={styles.desc}>
             <div className={styles.pickMobile}>
               <a
+                rel="noopener noreferrer"
                 target="_blank"
                 href="https://play.google.com/store/apps/details?id=com.sunedu.app&hl=en&gl=US"
               >
@@ -58,6 +59,7 @@ export default function Home() {
                 />
               </a>
               <a
+                rel="noopener noreferrer"
                 target="_blank"
                 href="https://apps.apple.com/id/app/sun-education-group/id1446868544?l=id"
               >
@@ -78,6 +80,7 @@ export default function Home() {
             </div>
             <div>
               <a
+                rel="noopener noreferrer"
                 target="_blank"
                 href={
                   isIPhone
