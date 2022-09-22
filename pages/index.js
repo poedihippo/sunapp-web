@@ -47,14 +47,20 @@ export default function Home() {
           </div>
           <div className={styles.desc}>
             <div className={styles.pickMobile}>
-              <a href="https://play.google.com/store/apps/details?id=com.sunedu.app&hl=en&gl=US">
+              <a
+                target="_blank"
+                href="https://play.google.com/store/apps/details?id=com.sunedu.app&hl=en&gl=US"
+              >
                 <img
                   src="/images/Google Play.png"
                   alt="google play"
                   className={styles.btn}
                 />
               </a>
-              <a href="https://apps.apple.com/id/app/sun-education-group/id1446868544?l=id">
+              <a
+                target="_blank"
+                href="https://apps.apple.com/id/app/sun-education-group/id1446868544?l=id"
+              >
                 <img
                   src="/images/Appstore.png"
                   alt="google play"
@@ -72,6 +78,7 @@ export default function Home() {
             </div>
             <div>
               <a
+                target="_blank"
                 href={
                   isIPhone
                     ? "https://apps.apple.com/id/app/sun-education-group/id1446868544?l=id"
